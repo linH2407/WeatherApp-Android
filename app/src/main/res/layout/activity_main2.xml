@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/textViewTenThanhPho"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="-40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:text="Tên thành phố"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="-65dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+/>
+</LinearLayout>
